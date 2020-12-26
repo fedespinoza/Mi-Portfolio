@@ -1,0 +1,401 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU NAVEGACION TOP*/
+
+.col-nav,
+.col-proyectos,
+.col-formulario{
+    padding: 0;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    padding: 0 50px;
+}
+
+/*HEADER*/
+
+.img-bg{
+    width: 100%;
+    height: 94vh;
+    position: relative;
+}
+
+.titulos{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+}
+
+.titulos h1{
+    font-size: 60px;
+}
+
+.titulos h2{
+    font-size: 30px;
+}
+
+/*SOBRE MI*/
+
+.col-sobre-mi{
+    background-color: #ffd700;
+    padding: 100px 0;
+}
+
+.foto-perfil{
+    width: 350px;
+    border-radius: 50%;
+}
+
+.sobre-mi{
+    margin-left: 60px;
+}
+
+.sobre-mi h2{
+    font-size: 45px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.sobre-mi{
+    font-size: 25px;
+}
+
+.sobre-mi p{
+  margin-bottom: 60px;
+}
+
+.sobre-mi a{
+  margin: 0 auto;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333333;
+  transition: 0.8s ease all;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sobre-mi a:hover{
+  background-color: #eb0000;
+  color: #fff;
+  transition: 0.8s ease all;
+}
+
+/*SKILLS*/
+
+.skills h2{
+    font-size: 50px;
+    padding: 30px 0;
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+}
+
+/*SECCION PROYECTOS*/
+
+.col-proyectos{
+  background-color: #fff6f6;
+}
+
+.proyectos{
+  width: 100%;
+}
+
+.primer-proyecto,
+.segundo-proyecto,
+.tercer-proyecto,
+.cuarto-proyecto,
+.quinto-proyecto{
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 15px 0;
+  background-color:lemonchiffon;
+  transition: all .6s ease;
+  padding: 0;
+}
+
+.primer-proyecto:hover,
+.segundo-proyecto:hover,
+.tercer-proyecto:hover,
+.cuarto-proyecto:hover,
+.quinto-proyecto:hover{
+  transform: scale(1.05, 1.05);
+  transition: all .6s ease;
+}
+
+.proyectos h2.titulo{
+  font-size: 50px;
+  padding: 30px 0;
+  padding: 100px 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.img-proyectos{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+}
+
+.primer-proyecto h3,
+.segundo-proyecto h3,
+.tercer-proyecto h3,
+.cuarto-proyecto h3,
+.quinto-proyecto h3{
+  font-size: 14px;
+  text-align: center;
+  color: #C72E66;
+  padding-top: 10px;
+}
+
+.primer-proyecto p,
+.segundo-proyecto p,
+.tercer-proyecto p,
+.cuarto-proyecto p,
+.quinto-proyecto p{
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.quinto-proyecto{
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.redes{
+  background-color: #ffd700;
+  padding: 20px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.redes i{
+  font-size: 24px;
+  color: #000000;
+}
+
+.fa-eye,
+.fa-github{
+  transition: 0.5s ease all;
+}
+
+.fa-eye:hover,
+.fa-github:hover{
+  color: #eb0000;
+  transition: 0.5s ease all;
+}
+
+/*FORMULARIO DE CONTACTO*/
+.col-formulario h2{
+  text-align: center;
+  margin: 60px 0;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+form{
+  width: 40%;
+  margin: 0 auto;
+}
+
+form input{
+  border-radius: 4px;
+  border: 2px solid #4e4e4e;
+  padding: 5px 0;
+  color: #6e6e6e;
+  padding-left: 3px;
+}
+
+form label{
+  margin: 15px 0 0 0;
+}
+
+form textarea{
+  margin-bottom: 40px;
+  border: 2px solid #4e4e4e;
+  padding-top: 3px;
+  max-height: 300px;
+  min-height: 200px;
+  color: #6e6e6e;
+  border-radius: 4px;
+  padding-left: 3px;
+}
+
+form button{
+  width: 100px;
+  margin: 0 auto;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd700;
+  transition: 0.8s ease all;
+  margin-bottom: 60px;
+}
+
+form button:hover{
+  background-color: #eb0000;
+  color: #fff;
+  transition: 0.8s ease all;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #212529;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+footer p {
+  padding-left: 50px;
+  font-size: 15px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+footer .canada {
+  color: #b22222; }
+
+footer a {
+  text-decoration: none;
+  font-size: 23px;
+  padding-right: 20px;
+  color: #fff; }
+
+footer .twitter,
+.instagram,
+.facebook {
+  transition: .5s ease; }
+
+footer a:nth-child(3) {
+  padding-right: 50px; }
+
+footer .fa-github:hover {
+  color: #ffd900;
+  transition: .5s ease; }
+
+footer .fa-envelope:hover {
+  color: #C72E66;
+  transition: .5s ease; }
+
+footer .fa-linkedin:hover {
+  color: #0A66C2;
+  transition: .5s ease; 
+}
+
+@media (max-width: 478px){
+
+  /*HEADER*/
+
+  .titulos{
+    left: 13%;
+  }
+
+  .titulos h1{
+    font-size: 30px;
+  }
+
+  .titulos h2{
+    font-size: 20px;
+  }
+
+  /*SOBRE MI*/
+
+  .foto-perfil{
+    width: 250px;
+    margin: 50px 0;
+    margin-top: 0;
+  }
+
+  .sobre-mi{
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .sobre-mi-phone{
+    width: 100vw;
+  }
+
+  .sobre-mi h2{
+    font-size: 30px;
+  }
+
+  .sobre-mi p{
+  font-size: 18px;
+  width: 85%;
+  margin: 40px auto;
+  }
+
+  /*SKILLS*/
+
+  .skills h2{
+    font-size: 30px;
+    padding: 30px 0;
+    padding-top: 50px;
+  }
+
+  /*SECCION PROYECTOS*/
+
+  .proyectos{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .proyectos h2.titulo{
+    font-size: 30px;
+    padding: 80px 0 50px 0;
+  }
+
+  .img-proyectos{
+    width: 100%;
+  }
+
+  /*FORMULARIO DE CONTACTO*/
+  .col-formulario h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  form{
+    width: 80%;
+  }
+
+  /*FOOTER*/
+
+  footer {
+    height: 150px;
+  }
+
+}
+
+
